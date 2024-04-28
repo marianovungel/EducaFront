@@ -1,0 +1,91 @@
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    object-fit: cover;
+}
+#idIntercampi{
+    object-fit: cover;
+}
+.buttomzoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+.buttomzoomInter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+}
+.buttomBottonsInter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.marginToo{
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20pt;
+}
+.marginTooo{
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20pt;
+}
+@media(max-width: 992px){
+    .addMarginVisto{
+        margin-top: 80px;
+    }
+}
+@media(max-width: 775px){
+    .addMarginVisto{
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 650px){
+    .addMarginVisto{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 600px){
+    .center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        object-fit: cover;
+    }
+    #idPdf{
+        width: 80%;
+        object-fit: cover;
+    }
+}
